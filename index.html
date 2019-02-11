@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman Group</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   
+</head>
+<body>
+       
+                <div class="container">
+                  <h1 style="text-align: center">Class Hangman Challenge</h1>
+                  <h4>For Desktop Screen Size Only</h4>
+                  <p  id="letterLines"></p>
+                  <p> Hint: <span id="hint"></p>
+                  <p> Wrong Letters: <span id="wrongLetter"></span> </p>
+                  <p> Attempts Left: <span id="attemptsLeft"></span></p>
+                  <p> Result: <span id="result"></span></p>
+                 
+                </div>
+            
+  
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+              <script type="text/javascript" src = "assets/javascript/game.js"></script> 
+    </body>
+
+</html>
+<!--  /*  listing the variables 
+ x   var userInput  (the A-Z character that some clicks on)
+ x   var wordBank  (the array of objects with words and hints)
+ x   var currentWord (the word chosen array)
+ x   var letterLines (the _ corresponding to the length of the currentWord)
+    var attempts = 9 (the ammount wrong letters someone can guess)
+    var wrongLetter (an array of wrong letters)
+    var wins (how many times someone has won)
+    var loses (how many times somoene has lost)
+    var newGame (button for new game )
+
+
+    function: newGame (hard reset only keeps wins and loses also generates a new chosen word)
+ x   function: letterPress (records only a-z)
+    function: letterCheck (checks input agaisnt chosen word && and if they pressed the letter already)
+    function: letterFill (fills in the letterLines with the matching letters)
+    function: wrongLetterFill (appends wrong guesses to the wrongLetter array && displays)
+    function: guessCounter (updates the user attempts)
+ x   function: forTheWin (displays champion message) -->

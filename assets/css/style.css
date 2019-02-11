@@ -1,0 +1,21 @@
+body {
+	background-image: url("../images/background2.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+p {
+    background-color: yellow;
+    padding:20px;
+    margin: 10px 520px 0px 520px;
+    text-align: center;
+  }
+h1{
+    margin-bottom:40px;
+    color: white;
+}
+h4{
+    text-align: center;
+    color: red;
+}
